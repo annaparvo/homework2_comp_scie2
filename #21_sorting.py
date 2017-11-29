@@ -12,8 +12,7 @@ def partition(ar):
         else:
             f.append(ar[i])
     new = left + f + right
-    print
-    ' '.join(str(v) for v in new)
+    print ' '.join(str(v) for v in new)
 
 
 m = input()
